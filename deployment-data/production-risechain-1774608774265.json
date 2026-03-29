@@ -1,0 +1,95 @@
+{
+  "network": "Rise Testnet",
+  "chainId": 11155931,
+  "deployer": "0x004566C322f5F1CBC0594928556441f8D38EA589",
+  "timestamp": "2026-03-27T10:47:49.564Z",
+  "contracts": {
+    "tokens": {
+      "WETH": {
+        "address": "0x320e43148D3E8670dD4C632592Ff70EFb264be6f",
+        "name": "Wrapped Ether",
+        "decimals": 18,
+        "price": 2009.61
+      },
+      "USDC": {
+        "address": "0x63e319a95897493b6662EFe61891330dDA2C42a7",
+        "name": "USD Coin",
+        "decimals": 6,
+        "price": 0.99973
+      },
+      "USDT": {
+        "address": "0x9f3B65585174097346C8D6f15A46ad1FC6aC9fee",
+        "name": "Tether USD",
+        "decimals": 6,
+        "price": 0.999359
+      }
+    },
+    "shards": {
+      "WETH-USDC": [
+        {
+          "address": "0xb7d2F3761b6FF86cef88738306D2e8D7724Cca77",
+          "name": "WETH-USDC-Small",
+          "liquidityUSD": 50000,
+          "amountA": "12.440224720219346944",
+          "amountB": "25006.751822"
+        },
+        {
+          "address": "0x3fBd22A8D37Ba2E2F37C189716a10044A58FaB46",
+          "name": "WETH-USDC-Medium",
+          "liquidityUSD": 250000,
+          "amountA": "62.201123601096728576",
+          "amountB": "125033.759114"
+        },
+        {
+          "address": "0xb7A29aa74E0d00ff795e5a4EA1EC409265DCb210",
+          "name": "WETH-USDC-Large",
+          "liquidityUSD": 1000000,
+          "amountA": "248.804494404386914304",
+          "amountB": "500135.036459"
+        }
+      ],
+      "USDC-USDT": [
+        {
+          "address": "0xFa6F93E0c0c2Bb58A21Ff29DB7e46fe9407c5341",
+          "name": "USDC-USDT-Small",
+          "liquidityUSD": 100000,
+          "amountA": "50013.503645",
+          "amountB": "50032.070557"
+        },
+        {
+          "address": "0x010D2A4ab84524c08ad47ecE187a7004c2FAF3C8",
+          "name": "USDC-USDT-Medium",
+          "liquidityUSD": 500000,
+          "amountA": "250067.518229",
+          "amountB": "250160.352786"
+        },
+        {
+          "address": "0x03e3D67F5b8c440A93502105214Dc7b20962560F",
+          "name": "USDC-USDT-Large",
+          "liquidityUSD": 2000000,
+          "amountA": "1000270.072919",
+          "amountB": "1000641.411144"
+        }
+      ]
+    },
+    "factory": "0xffecB69836Cf796737eF0Ea156117Ac1EbaD276e",
+    "router": "0xa56fD614bce190C80d6850e894cdCb129D5e3f87",
+    "orchestrator": "0xDC11fcc5144bb58081294ec94b84EEeaAb5B090C",
+    "faucet": "0x8E93BcB5c8cbe89121413Dd0c18b6D7A141A4dA2"
+  },
+  "poolStats": {
+    "totalShards": 6,
+    "totalLiquidityUSD": 3900000
+  },
+  "marketPrices": {
+    "WETH": 2009.61,
+    "USDC": 0.99973,
+    "USDT": 0.999359,
+    "fetchedAt": "2026-03-27T10:47:51.124Z"
+  },
+  "testResults": {
+    "passed": 7,
+    "failed": 1
+  },
+  "deployTime": "307.5s"
+}
